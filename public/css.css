@@ -16,7 +16,7 @@ section:nth-of-type(2n) {
 section.hero {
   /*background-color: #bed600;
   background-color: #bed600;*/
-    background-image: url(./img/title2.png);
+    background-image: url('./img/title2.png');
     /*background-size: cover;*/
     background-repeat: no-repeat;
 
@@ -28,12 +28,12 @@ section h1 {
 }
 
 nav {
-  min-height: 10vh;
-  width: 100%;
-  background-color: #111;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+    min-height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 nav.sticky {
   position: fixed;
