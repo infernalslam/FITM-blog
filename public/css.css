@@ -2,8 +2,46 @@
 body {
     font-family: 'Sriracha', cursive;
 }
+.btn-title2 a {
+    padding: 12px;
+    background: #ff884c;
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    border-bottom: 9px #ff6619 solid;
+    /* letter-spacing: 0.5px; */
+    border-radius: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.text-title {
+    position: absolute;
+    /*border-style: dashed;*/
+    height: auto;
+    font-size: 40px;
+    text-align: center;
+    padding: 1%;
+    margin-top: 6%;
+    /*border-style: dashed;*/
+}
+.tittle-pig {
+    /*background-image: url(./img/tittle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 52%;*/
+    background-image: url(./img/tittle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 64%;
+    /*position: relative;*/
+}
 .btn-title a {
-  padding: 5px 16px;
+  padding: 7px 16px;
   background: #1480E2;
   color: #FFF;
   text-decoration: none;
@@ -49,3 +87,4 @@ margin-top: -8px;
     z-index: 9400;
     width: 130px;
 }
+
