@@ -1,75 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
 body {
-  font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Sriracha', cursive;
 }
-
-section {
-  background-color: #1ea2eb;
-  color: white;
+.btn-title a {
+  padding: 5px 16px;
+  background: #1480E2;
+  color: #FFF;
+  text-decoration: none;
+  font-family: 'Sriracha', cursive;
+  font-size: 20px;
+  border-bottom: 9px #0871d0 solid;
+  /* letter-spacing: 0.5px; */
+  border-radius: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+.btn-title {
+        padding-top: 4%;
+}
+.bar-color {
+  background-color: #ffffff;
+    border-color: #ffffff;
+    -webkit-box-shadow: 3px 6px 17px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 6px 17px -4px rgba(0,0,0,0.75);
+box-shadow: 14px 1px 17px -4px rgba(0,0,0,0.75);
+}
+.setsize {
+  /*border-style: dashed;*/
+margin-top: -8px;
+}
+.img-center {margin:0 auto;}
+.text-sub {
   text-align: center;
-  display: table;
-  min-width: 100%;
-  height: 90vh;
+  /*border-style: dashed;*/
+  margin-top: -4%;
+  font-size: 24px;
 }
-section:nth-of-type(2n) {
-  background-color: #983379;
+.bg2 {
+      background-color: #03A9F4;
 }
-section.hero {
-  /*background-color: #bed600;
-  background-color: #bed600;*/
-    background-image: url('./img/title2.png');
-    /*background-size: cover;*/
-    background-repeat: no-repeat;
-
+.ribbon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9400;
+    width: 130px;
 }
-section h1 {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 56px;
-}
-
-nav {
-    min-height: 10vh;
-    width: 100%;
-    background-color: #fff;
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-nav.sticky {
-  position: fixed;
-  top: 0;
-}
-nav li {
-  display: inline-block;
-  line-height: 11vh;
-  padding: 0 40px;
-  border-right: 1px solid #1f1f1f;
-  margin: 0;
-}
-
-
-.code-container {
-  display: table;
-  position: relative;
-  font-size: 16px;
-  background-color: #272822;
-  overflow-x: auto;
-  overflow-y: hidden;
-  margin: 50px auto;
-  padding: .5em;
-  color: #F8F8F2;
-  text-align: left;
-  line-height: 1.5;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  font-family: Consolas, Monaco, 'Andale Mono', monospace;
-}
-
-.token-property {
-  color: #F92672;
-}
-
-.token-function {
-  color: #E6DB74;
-}
-
-////////////////////////////////////
